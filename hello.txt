@@ -1,1 +1,22 @@
-A Text file for practicing git Basics cmd
+Hello Guy's, This File is Basically created to learn Git as well as practice the learned git cmd.
+Hopefully their is nothing for you to see their as this file purpose was to try the cmd that i had learned
+
+cmd
+
+1. Initialize 
+    - git init [Initialize the git for tracting the changes over the period of time]
+
+2. Status
+    - git status [it is used to Check the status of file such status of tracked file, untracked files and all]
+
+3. Add 
+    - git add . [Adds all the file to Staging Area]
+    - git add file1.txt file2.txt file2.txt [To Add Multiple selected files to Staging Area]
+    - git add file1.txt [To Add Single selected file to Staging Area]
+
+4. Commit
+    - git commit -m "Added file1.txt" [Add the file from Staging Area to Local Repo]
+       * Here Above -m stands for message flag so that we can be aware of purpose of changes we made
+
+
+ 
