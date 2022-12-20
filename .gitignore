@@ -1,5 +1,5 @@
-# welcome.html
-# /todo
-# # GitDoc.txt // "#" is used as pre-fix for defining that this line is comment
-# *.[oa]
-# SubDirectoryToIgnore/
+welcome.html
+/todo
+# GitDoc.txt // "#" is used as pre-fix for defining that this line is comment
+*.[oa]
+SubDirectoryToIgnore/
