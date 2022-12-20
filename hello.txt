@@ -15,7 +15,7 @@ cmd
     - git add file1.txt [To Add Single selected file to Staging Area]
 
 4. Commit
-    - git commit -m "Added file1.txt" [Add the file from Staging Area to Local Repo]
+    - git commit -m "Added file1.txt" [Add the file from Staging Area to Locally]
        * Here Above -m stands for message flag so that we can be aware of purpose of changes we made
 
 
