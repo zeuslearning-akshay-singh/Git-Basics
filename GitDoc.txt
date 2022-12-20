@@ -1,0 +1,57 @@
+Hello Guy's, This File is Basically created to learn Git as well as practice the learned git cmd.
+Hopefully their is nothing for you to see their as this file purpose was to try the cmd that i had learned
+
+cmd
+
+1. Initialize 
+    - git init [Initialize the git for tracting the changes over the period of time]
+
+2. Status
+    - git status [it is used to Check the status of file such status of tracked file, untracked files and all]
+
+3. Add 
+    - git add . [Adds all the file to Staging Area]
+    - git add file1.txt file2.txt file2.txt [To Add Multiple selected files to Staging Area]
+    - git add file1.txt [To Add Single selected file to Staging Area]
+
+4. Commit
+    - git commit -m "Added file1.txt" [Add the file from Staging Area to Locally as Local Repo]
+        * Here Above -m stands for message flag so that we can be aware of purpose of changes we made
+        * And since project has no branch created and was just initailized without any code been pushed on serves so git will consider this as  master branch
+
+5. Log
+    - git log [Provides commit details]
+
+6. Initial Project cmds
+    - git remote add orgin https://github.com/MyLearnings.git
+    - git branch -M main
+    - git push -u orgin main
+
+// 1st cmd adds remote server which named as origin as server of storing the code changes
+// 2nd cmd is for creating branch as main and checkingout to that branch
+// 3rd cmd is for pushing the code to remote server [i.e origin] with creating main branch and storing the changes on that branch
+
+7. Git push
+    - Once git default branch as origin or any other name is been defined then only running "git push" is sufficient
+
+8. Git Clone
+    - Via git clone we copy the pre-existing code from server
+    - It has 2 uses 
+        * a] Personal Purpose [To develop some personal functionality on that code] or 
+        * b] Community Purpose [To contribute to open-source project]
+    - git clone <git repo url> // Ignore this "< >" special symbol 
+    - git clone <git repo url> <file name you want to provide rather than using default repo link>
+
+    - since it is clone from other person repo then we wonb't be able to have access as write on the code
+    - so, we would add our own new created repo 
+    [
+        # Note: while running cmd git remote add origin <url> do make sur to change the name default name og "origin" as while cloning origin was already been assigned
+        and then follow with creating branch and pushing the code with new deafult variable name [e.g git push -u newOrigin]
+        Remember this is just one time change and on next time you just need to hit this [git push] cmd
+    ]
+
+9. Git Ignore
+    - File that conatins list files either mentioned directly or been add using shortcut rules are ignored [i.e not get tracked] by git
+    - Use of this ".gitignore" file is that we do often have some file that we don't want to get tracked by git 
+    - For E.g. => there may be some output file that was been generated while compiling of the programe or like node module project has node_module folder that is big as well as can be ignored
+    
