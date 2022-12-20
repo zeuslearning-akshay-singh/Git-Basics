@@ -1,0 +1,2 @@
+Image Description
+1. NewRepoCreated Image refers to cmd to use to add a locally saved project to git Server
