@@ -54,4 +54,14 @@ cmd
     - File that conatins list files either mentioned directly or been add using shortcut rules are ignored [i.e not get tracked] by git
     - Use of this ".gitignore" file is that we do often have some file that we don't want to get tracked by git 
     - For E.g. => there may be some output file that was been generated while compiling of the programe or like node module project has node_module folder that is big as well as can be ignored
-    
+
+10. Git rm and Unstage changes from Staging Area
+    - git rm <filename>  => will remove the file and update the changes to staging Area
+    - git rm -f <filename>  => if i made some modifications in the file and using the above cmd will through warning to use -f as their are some modification which is not committed yet.
+    - git rm --cached <filename> => will remove the file from staging area to working directory
+
+11. Git Commit Amend
+    - If their is any case where i need to update my perivous commit then i can use this cmd
+    - Note this cmd is only helpful when user hasn't  push the commit changes to server
+    - git commit --amend // Will open the prompt for changeing the commit name and exit via Clik Ecp + Shift : + w + q and the enter
+    - can also be use for editing the commit message
